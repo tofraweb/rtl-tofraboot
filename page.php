@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
   <div class="container">
-    <div class="row row-offcanvas row-offcanvas-right">
+    <div class="row row-offcanvas row-offcanvas-left">
+
+      <?php get_sidebar(); ?>
 
       <div class="col-md-9">
         <p class="pull-right visible-xs">
@@ -27,8 +29,6 @@
 
 
       </div>
-
-      <?php get_sidebar(); ?>
 
     </div>
 

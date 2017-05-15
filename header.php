@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,7 @@
 
         <div class="navbar-collapse collapse">
 
-          <?php 
+          <?php
             $args = array(
               'menu'        => 'header-menu',
               'menu_class'  => 'nav navbar-nav',

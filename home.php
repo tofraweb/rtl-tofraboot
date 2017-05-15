@@ -3,6 +3,8 @@
   <div class="container">
     <div class="row">
 
+      <?php get_sidebar( 'blog' ); ?>
+      
       <div class="col-md-9">
 
         <div class="page-header">
@@ -88,8 +90,6 @@
 
 
       </div>
-
-      <?php get_sidebar( 'blog' ); ?>
 
     </div>
 
