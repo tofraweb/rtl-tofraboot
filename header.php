@@ -26,7 +26,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+          <div class = "logo"><a  href="<?php bloginfo( 'url' ); ?>"><img src="<?php echo get_template_directory_uri()?>/images/succu.jpg"></a></div>
+          <!-- <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a> -->
         </div>
 
         <div class="navbar-collapse collapse">

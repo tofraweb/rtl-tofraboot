@@ -86,10 +86,21 @@ article.post {
 	margin: 20px 0 40px;
 }
 
+.logo img,
+.frontpage-picture img,
 .featured-image img,
 .portfolio-piece img,
 .portfolio-image img {
 	max-width: 100%;
+}
+
+.logo {
+  margin: 5px;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+  font-size: large !important;
 }
 
 .prev-next {
@@ -103,6 +114,22 @@ article.post {
 		font-size: .8em;
 	}
 
+}
+
+.row {
+  padding-top: 10px;
+}
+
+.frontpage-picture {
+  margin-top: 28px;
+}
+
+.sub-menu {
+  font-size: 14px;
+}
+
+.page-header {
+  margin-top: 50px;
 }
 
 /*
