@@ -1,6 +1,6 @@
 <?php
 /*
-  Template Name: Portfolio Grid Template
+  Template Name: Birds Grid Template
 */
 
 ?>
@@ -38,7 +38,7 @@
 
       <?php
         $args = array(
-          'post_type' => 'portfolio'
+          'post_type' => 'birds'
         );
         $the_query = new WP_Query( $args );
 
